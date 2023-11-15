@@ -1,0 +1,37 @@
+.navBar {
+    background-color: #ffffff;
+    color: white;
+    padding: 8px 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.navButton {
+    color:  #001849;
+    margin: 20px; 
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.navButton:hover {
+    color: rgb(75, 118, 150); 
+}
+
+.logo {
+    width: 200px;
+    height: auto; 
+}
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.cartNumber {
+    color:  #001849;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
